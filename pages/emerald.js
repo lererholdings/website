@@ -1,11 +1,12 @@
-export default function Home() {
+export default function HomeEmerald() {
   return (
     <>
+      <style>{`@import url('/styles/emerald.css');`}</style>
       <div className="bg-glow"></div>
 
       {/* Nav */}
       <nav>
-        <a className="logo" href="#">
+        <a className="logo" href="/">
           <div className="logo-icon">
             <svg viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M3 8l6 6 8-9" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -34,6 +35,10 @@ export default function Home() {
           </p>
         </div>
       </section>
+
+      <div className="divider">
+        <div className="divider-line"></div>
+      </div>
 
       {/* Features */}
       <section className="features">
@@ -84,11 +89,11 @@ export default function Home() {
 
       {/* Footer */}
       <footer>
-        <a className="footer-logo" href="#">
+        <a className="footer-logo" href="/">
           <div className="footer-logo-dot"></div>
           <span className="footer-logo-name">Lerer Holdings Pty Ltd</span>
         </a>
-        <p className="footer-copy">© 2026 Lerer Holdings. All rights reserved. Contact: coby@lererholdings.com.au</p>
+        <p className="footer-copy">© 2026 Lerer Holdings. All rights reserved. Contact: info@lererholdings.com.au</p>
       </footer>
     </>
   );

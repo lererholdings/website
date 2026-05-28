@@ -72,6 +72,16 @@ Edit the following files to customize your site:
 - **styles/Home.module.css** - Update colors and layout
 - **package.json** - Change company name or add dependencies
 
+## Design & Theme
+
+The website theme was inspired by the modern dark design at: https://leadpages.pubhtml.com/uD_OtsqoNc
+
+Features include:
+- Dark blue/purple gradient background
+- Indigo accent colors
+- Smooth animations and hover effects
+- Fully responsive mobile design
+
 ## Contact Email
 
-Update the contact email in `pages/index.js` from `info@lererholdings.com.au` to your preferred email address.
+Update the contact email in `pages/index.js` from `coby@lererholdings.com.au` to your preferred email address.
