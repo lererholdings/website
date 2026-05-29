@@ -1,7 +1,6 @@
 export default function HomeEmerald() {
   return (
     <>
-      <style>{`@import url('/styles/emerald.css');`}</style>
       <div className="bg-glow"></div>
 
       {/* Nav */}
