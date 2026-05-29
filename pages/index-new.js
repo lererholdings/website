@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function HomeIndigo() {
+export default function Home() {
   return (
     <>
       <div className="bg-glow"></div>

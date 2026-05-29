@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function HomeIndigo() {
+export default function HomeEmerald() {
   return (
     <>
       <div className="bg-glow"></div>
@@ -20,7 +20,7 @@ export default function HomeIndigo() {
       {/* Hero */}
       <section className="hero">
         <div className="hero-tag">Technical Services & Investments</div>
-        <h1>Expert Support<br/>for Application<br/><span>Security.</span></h1>
+        <h1>Expert services for <br/><span>Application Security</span><br/>and integration</h1>
         <p>Lerer Holdings specializes in technical and pre-sale support for Veracode, with deep expertise in GitHub integration. We also manage strategic investments in ETFs and US Options to maximize your portfolio returns.</p>
       </section>
 

@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <>
@@ -5,35 +7,26 @@ export default function Home() {
 
       {/* Nav */}
       <nav>
-        <a className="logo" href="#">
+        <Link className="logo" href="/">
           <div className="logo-icon">
             <svg viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M3 8l6 6 8-9" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </div>
           <span className="logo-name">Lerer Holdings</span>
-        </a>
+        </Link>
       </nav>
 
       {/* Hero */}
       <section className="hero">
         <div className="hero-tag">Technical Services & Investments</div>
-        <h1>Expert Support<br/>for Application<br/><span>Security.</span></h1>
-        <p>Lerer Holdings specializes in technical and pre-sale support for Veracode, with deep expertise in GitHub integration. We also manage strategic investments in ETFs and US Options to maximize your portfolio returns.</p>
-
-        <div className="form-wrapper">
-          <div className="form-row">
-            <input type="email" placeholder="Enter your email address" />
-            <button type="button">Contact Us</button>
-          </div>
-          <p className="form-note">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
-            </svg>
-            24/7 support available. Your data is secure.
-          </p>
-        </div>
+        <h1>Expert services for <br/><span>Application Security</span><br/>and integration</h1>
+        <p>Lerer Holdings specializes in technical and pre-sale support for Veracode, with deep expertise in GitHub integration. We also manage strategic investments in ETFs and US stocks and index Options to maximize your portfolio returns.</p>
       </section>
+
+      <div className="divider">
+        <div className="divider-line"></div>
+      </div>
 
       {/* Features */}
       <section className="features">
@@ -82,13 +75,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer>
-        <a className="footer-logo" href="#">
+        <footer>
+        <Link className="footer-logo" href="/">
           <div className="footer-logo-dot"></div>
           <span className="footer-logo-name">Lerer Holdings Pty Ltd</span>
-        </a>
-        <p className="footer-copy">© 2026 Lerer Holdings. All rights reserved. Contact: coby@lererholdings.com.au</p>
+        </Link>
+        <p className="footer-copy">© 2026 Lerer Holdings. All rights reserved. Contact: info@lererholdings.com.au</p>
       </footer>
     </>
   );
