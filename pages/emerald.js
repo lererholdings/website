@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function HomeEmerald() {
   return (
     <>
@@ -5,14 +7,14 @@ export default function HomeEmerald() {
 
       {/* Nav */}
       <nav>
-        <a className="logo" href="/">
+        <Link className="logo" href="/">
           <div className="logo-icon">
             <svg viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M3 8l6 6 8-9" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </div>
           <span className="logo-name">Lerer Holdings</span>
-        </a>
+        </Link>
       </nav>
 
       {/* Hero */}
@@ -88,10 +90,10 @@ export default function HomeEmerald() {
 
       {/* Footer */}
       <footer>
-        <a className="footer-logo" href="/">
+        <Link className="footer-logo" href="/">
           <div className="footer-logo-dot"></div>
           <span className="footer-logo-name">Lerer Holdings Pty Ltd</span>
-        </a>
+        </Link>
         <p className="footer-copy">© 2026 Lerer Holdings. All rights reserved. Contact: info@lererholdings.com.au</p>
       </footer>
     </>
