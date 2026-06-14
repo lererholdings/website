@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -9,9 +10,7 @@ export default function Home() {
       <nav>
         <Link className="logo" href="/">
           <div className="logo-icon">
-            <svg viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M3 8l6 6 8-9" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
+            <Image src="/images/logo.png" alt="Lerer Holdings Logo" width={256} height={256} priority quality={100} />
           </div>
           <span className="logo-name">Lerer Holdings</span>
         </Link>
@@ -21,7 +20,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-tag">Technical Services & Investments</div>
         <h1>Expert services for <br/><span>Application Security</span><br/>and integration</h1>
-        <p>Lerer Holdings specializes in technical and pre-sale support for Veracode, with deep expertise in GitHub integration. We also manage strategic investments in ETFs and US stocks and index Options to maximize your portfolio returns.</p>
+        <p>Lerer Holdings specializes in technical and pre-sale support for Veracode, with deep expertise in CI/CD integration. We also manage strategic investments in ETFs and US stocks and index Options to maximize out investment portfolio returns.</p>
       </section>
 
       <div className="divider">
@@ -77,7 +76,7 @@ export default function Home() {
 
         <footer>
         <Link className="footer-logo" href="/">
-          <div className="footer-logo-dot"></div>
+          <Image src="/images/logo.png" alt="Lerer Holdings Logo" width={22} height={22} quality={100} />
           <span className="footer-logo-name">Lerer Holdings Pty Ltd</span>
         </Link>
         <p className="footer-copy">© 2026 Lerer Holdings. All rights reserved. Contact: info@lererholdings.com.au</p>
