@@ -243,7 +243,7 @@ nav {
   justify-content: center;
   background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(79, 70, 229, 0.1));
   border-radius: 10px;
-  margin-bottom: 1rem;
+  margin: 0 auto 1rem;
   color: var(--indigo-light);
 }
 
