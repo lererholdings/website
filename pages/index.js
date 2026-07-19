@@ -18,9 +18,9 @@ export default function Home() {
 
       {/* Hero */}
       <section className="hero">
-        <div className="hero-tag">Technical Services & Investments</div>
+        <div className="hero-tag">Technical Services & Software Development</div>
         <h1>Expert services for <br/><span>Application Security</span><br/>and integration</h1>
-        <p>Lerer Holdings specializes in technical and pre-sale support for Veracode, with deep expertise in CI/CD integration. We also manage strategic investments in ETFs and US stocks and index Options to maximize out investment portfolio returns.</p>
+        <p>Lerer Holdings specializes in technical and pre-sale support for Veracode, with deep expertise in CI/CD integration. We also design and build the software our own team runs on, day to day.</p>
       </section>
 
       <div className="divider">
@@ -31,7 +31,7 @@ export default function Home() {
       <section className="features">
         <div className="features-header">
           <div className="section-tag">What We Offer</div>
-          <h2>Comprehensive Security<br/>& Investment Solutions</h2>
+          <h2>Comprehensive Security<br/>& Software Solutions</h2>
         </div>
 
         <div className="features-grid">
@@ -61,18 +61,6 @@ export default function Home() {
           </div>
 
           {/* Feature 3 */}
-          <div className="feature-card">
-            <div className="feature-icon">
-              <svg viewBox="0 0 24 24">
-                <path d="M12 2l9.09 1.45L21.45 13 12 22l-9.45-9 .36-9.55L12 2zM12 8v8M8 12h8" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3>Investment Management</h3>
-            <p>Strategic portfolio management through ETF diversification and US Options trading. Maximize returns with data-driven investment strategies and risk management.</p>
-            <span className="feature-badge">Wealth Building</span>
-          </div>
-
-          {/* Feature 4 */}
           <Link href="/case-studies/sales-crm-tasks" className="feature-card feature-card--link">
             <div className="feature-icon">
               <svg viewBox="0 0 24 24">
