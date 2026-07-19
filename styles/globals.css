@@ -79,6 +79,85 @@ nav {
   backdrop-filter: blur(10px);
 }
 
+/* ── Slim sub-page nav (case studies) ── */
+.subnav {
+  position: relative;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(10px);
+}
+
+.subnav-side {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.subnav-side:hover { color: var(--emerald-light); }
+.subnav-side svg { width: 15px; height: 15px; stroke: currentColor; fill: none; stroke-width: 2; }
+
+.subnav-side--right {
+  justify-self: end;
+  font-family: ui-monospace, "SF Mono", "Cascadia Code", "Consolas", monospace;
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+.subnav-side--right em { color: var(--emerald-light); font-style: normal; }
+
+.subnav-logo {
+  justify-self: center;
+  display: flex;
+  align-items: center;
+  opacity: 0.9;
+  transition: opacity 0.2s;
+}
+.subnav-logo:hover { opacity: 1; }
+.subnav-logo img { border-radius: 6px; }
+
+/* ── "more work" link below the feature tiles ── */
+.more-work {
+  text-align: center;
+  padding: 48px 24px 0;
+  margin-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.more-work a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--emerald-light);
+  transition: opacity 0.2s;
+}
+
+.more-work a:hover { opacity: 0.85; }
+
+.more-work a svg {
+  width: 15px;
+  height: 15px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2;
+  transition: transform 0.2s;
+}
+
+.more-work a:hover svg { transform: translateX(3px); }
+
 .logo {
   display: flex;
   flex-direction: column;
@@ -358,8 +437,33 @@ nav {
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+}
+
+.feature-card.feature-card--link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  cursor: pointer;
+}
+
+.feature-link-out {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 18px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--emerald-light);
+}
+
+.feature-link-out svg {
+  width: 13px;
+  height: 13px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2;
 }
 
 .feature-card {
