@@ -1,37 +1,3 @@
-.subnav {
-  position: relative;
-  z-index: 10;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 22px 40px;
-  border-bottom: 1px solid var(--border);
-  backdrop-filter: blur(10px);
-}
-
-.navBack {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  text-decoration: none;
-  font-size: 0.85rem;
-  color: var(--text-secondary);
-  transition: color 0.2s;
-}
-.navBack:hover { color: var(--emerald-light); }
-.navBack svg { width: 15px; height: 15px; stroke: currentColor; fill: none; stroke-width: 2; }
-
-.navTag {
-  font-family: ui-monospace, "SF Mono", "Cascadia Code", "Consolas", monospace;
-  font-size: 0.72rem;
-  color: var(--text-secondary);
-  background: var(--bg-card);
-  border: 1px solid var(--border-light);
-  padding: 6px 12px;
-  border-radius: 6px;
-}
-.navTag em { color: var(--emerald-light); font-style: normal; }
-
 .hero {
   position: relative;
   z-index: 5;
@@ -67,7 +33,7 @@
   max-width: 780px;
   margin: 0 auto 22px;
   text-wrap: balance;
-  background: linear-gradient(160deg, #ffffff 30%, #a5b4fc 100%);
+  background: linear-gradient(160deg, #ffffff 40%, var(--text-secondary) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -304,7 +270,7 @@
   z-index: 5;
   max-width: 1040px;
   margin: 90px auto 0;
-  padding: 0 24px;
+  padding: 0 24px 90px;
 }
 .dividerLine {
   height: 1px;

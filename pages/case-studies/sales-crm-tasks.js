@@ -16,12 +16,15 @@ export default function SalesCrmTasksCaseStudy() {
 
       <div className="bg-glow"></div>
 
-      <nav className={styles.subnav}>
-        <Link className={styles.navBack} href="/case-studies">
+      <nav className="subnav">
+        <Link className="subnav-side" href="/case-studies">
           <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6" strokeLinecap="round" strokeLinejoin="round" /></svg>
           Case Studies
         </Link>
-        <span className={styles.navTag}>sales-crm-tasks <em>· internal build</em></span>
+        <Link className="subnav-logo" href="/" aria-label="Lerer Holdings home">
+          <Image src="/images/logo.png" alt="Lerer Holdings" width={30} height={30} quality={100} />
+        </Link>
+        <span className="subnav-side subnav-side--right">sales-crm-tasks <em>· internal build</em></span>
       </nav>
 
       <header className={styles.hero}>

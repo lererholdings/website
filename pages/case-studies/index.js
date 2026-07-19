@@ -28,11 +28,12 @@ export default function CaseStudiesIndex() {
 
       <div className="bg-glow"></div>
 
-      <nav className={styles.subnav}>
-        <Link className={styles.navBack} href="/">
-          <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6" strokeLinecap="round" strokeLinejoin="round" /></svg>
-          Lerer Holdings
+      <nav className="subnav">
+        <span></span>
+        <Link className="subnav-logo" href="/" aria-label="Lerer Holdings home">
+          <Image src="/images/logo.png" alt="Lerer Holdings" width={30} height={30} quality={100} />
         </Link>
+        <span></span>
       </nav>
 
       <header className={styles.hero}>

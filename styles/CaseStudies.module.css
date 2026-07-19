@@ -1,26 +1,3 @@
-.subnav {
-  position: relative;
-  z-index: 10;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 22px 40px;
-  border-bottom: 1px solid var(--border);
-  backdrop-filter: blur(10px);
-}
-
-.navBack {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  text-decoration: none;
-  font-size: 0.85rem;
-  color: var(--text-secondary);
-  transition: color 0.2s;
-}
-.navBack:hover { color: var(--emerald-light); }
-.navBack svg { width: 15px; height: 15px; stroke: currentColor; fill: none; stroke-width: 2; }
-
 .hero {
   position: relative;
   z-index: 5;
@@ -56,7 +33,7 @@
   letter-spacing: -0.03em;
   margin: 0 0 18px;
   text-wrap: balance;
-  background: linear-gradient(160deg, #ffffff 30%, #a5b4fc 100%);
+  background: linear-gradient(160deg, #ffffff 30%, var(--emerald-light) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

@@ -8,16 +8,12 @@ export default function Home() {
 
       {/* Nav */}
       <nav>
-        <div></div>
         <Link className="logo" href="/">
           <div className="logo-icon">
             <Image src="/images/logo.png" alt="Lerer Holdings Logo" width={256} height={256} priority quality={100} />
           </div>
           <span className="logo-name">Lerer Holdings</span>
         </Link>
-        <div className="nav-links">
-          <Link href="/case-studies">Case Studies</Link>
-        </div>
       </nav>
 
       {/* Hero */}
@@ -89,6 +85,13 @@ export default function Home() {
               View case study
               <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </span>
+          </Link>
+        </div>
+
+        <div className="more-work">
+          <Link href="/case-studies">
+            View all case studies
+            <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
           </Link>
         </div>
       </section>
