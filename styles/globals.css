@@ -136,15 +136,16 @@ nav {
 .more-work a {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   text-decoration: none;
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--text-secondary);
-  transition: color 0.2s;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--emerald-light);
+  transition: opacity 0.2s;
 }
 
-.more-work a:hover { color: var(--emerald-light); }
+.more-work a:hover { opacity: 0.85; }
 
 .more-work a svg {
   width: 15px;
