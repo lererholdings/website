@@ -30,6 +30,8 @@ body {
   line-height: 1.6;
   min-height: 100vh;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ── Background glow effects ── */
@@ -553,6 +555,7 @@ nav {
 footer {
   position: relative;
   z-index: 5;
+  margin-top: auto;
   border-top: 1px solid var(--border);
   padding: 32px 40px;
   display: flex;
