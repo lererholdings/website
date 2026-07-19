@@ -40,8 +40,8 @@ export default function CaseStudiesIndex() {
         <div className={styles.eyebrow}>Case Studies</div>
         <h1>Software we&rsquo;ve designed and built</h1>
         <p>
-          Alongside our Veracode and investment work, we build the internal tools our own team runs on —
-          proof of how we approach software, not just advice about it.
+          Alongside our Veracode work, we build the internal tools our own team runs on — proof of how we
+          approach software, not just advice about it.
         </p>
       </header>
 

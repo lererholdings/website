@@ -5,9 +5,9 @@
 }
 
 :root {
-  --bg-primary: #0a0a0f;
-  --bg-secondary: #0f0f1a;
-  --bg-card: #13131f;
+  --bg-primary: #090e0b;
+  --bg-secondary: #0e1611;
+  --bg-card: #131a16;
   --emerald-light: #a7f3d0;
   --emerald-mid: #10b981;
   --emerald-dark: #059669;
@@ -30,6 +30,16 @@ body {
   line-height: 1.6;
   min-height: 100vh;
   overflow-x: hidden;
+}
+
+/* Next.js (Pages Router) renders each page into #__next, which sits
+   between body and our actual page markup (nav/header/footer) — the
+   flex layout that sticks the footer to the bottom has to live here,
+   not on body, or it never reaches those elements. */
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* ── Background glow effects ── */
@@ -437,7 +447,7 @@ nav {
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
@@ -553,6 +563,7 @@ nav {
 footer {
   position: relative;
   z-index: 5;
+  margin-top: auto;
   border-top: 1px solid var(--border);
   padding: 32px 40px;
   display: flex;
