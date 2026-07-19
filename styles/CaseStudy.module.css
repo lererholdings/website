@@ -99,7 +99,7 @@
   position: absolute;
   border-radius: 12px;
   overflow: hidden;
-  background: var(--bg-card);
+  background: #131a17;
   border: 1px solid var(--border-light);
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.55);
 }
@@ -108,7 +108,7 @@
   align-items: center;
   gap: 6px;
   padding: 10px 14px;
-  background: var(--bg-card);
+  background: #131a17;
   border-bottom: 1px solid var(--border);
 }
 .shot .chrome i {
@@ -192,7 +192,7 @@
   grid-template-columns: 220px 1fr;
   gap: 32px;
   padding: 34px 36px;
-  background: var(--bg-secondary);
+  background: #0b0f0d;
 }
 .capLabel {
   display: flex;
@@ -297,7 +297,7 @@
   font-family: ui-monospace, "SF Mono", "Cascadia Code", "Consolas", monospace;
   font-size: 0.78rem;
   color: var(--text-secondary);
-  background: var(--bg-card);
+  background: #131a17;
   border: 1px solid var(--border-light);
   padding: 7px 13px;
   border-radius: 8px;
